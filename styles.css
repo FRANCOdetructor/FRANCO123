@@ -1,0 +1,179 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+header, footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+h2 {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.productos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.producto {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.producto img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.total {
+  text-align: right;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+form input, form button {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+}
+
+form button {
+  background: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.equipo-section {
+  background-color: #d4ffe0;
+  padding: 40px 20px;
+}
+
+.equipo-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.equipo-card {
+  text-align: center;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  color: #000;
+}
+
+.equipo-card img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.equipo-card h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.equipo-card .rol {
+  font-weight: bold;
+  color: #444;
+}
+
+.equipo-card .redes img {
+  width: 25px;
+  margin: 0 5px;
+  border-radius: 50%;
+}
+ body {
+      background-color: #1a5b94; /* azul acero */
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .logo { width: 120px; margin: 10px auto; display: block; }
+    .carousel-item img { height: 350px; object-fit: cover; }
+    .promo-card, .productos-card, .producto {
+      margin: 20px;
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      background-color: #fff;
+    }
+
+    .productos-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .equipo-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .equipo-card {
+      width: 250px;
+      padding: 20px;
+      text-align: center;
+      border-radius: 10px;
+    }
+    .equipo-card img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+    input, button {
+      margin: 5px 0;
+      padding: 10px;
+      width: 100%;
+      max-width: 400px;
+    }
+    table {
+      width: 100%;
+      background: white;
+      border-collapse: collapse;
+      margin-bottom: 10px;
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid #ddd;
+    }
+    .logo { width: 120px; margin: 10px auto; display: block; }
+    .carousel-item img { height: 350px; object-fit: cover; }
+    .promo-card, .productos-card, .producto { margin: 20px; padding: 15px; border: 1px solid #ccc; border-radius: 10px; }
+    .producto img { width: 100px; height: auto; }
+    #redes img { border-radius: 50%; }
+    .programador-card img { border-radius: 50%; }
+
